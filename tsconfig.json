@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"alwaysStrict": true,
+		"baseUrl": ".",
+		"emitDecoratorMetadata": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"forceConsistentCasingInFileNames": true,
+		"importHelpers": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"noImplicitAny": false,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": false,
+		"outDir": "dist",
+		"pretty": true,
+		"removeComments": true,
+		"rootDir": "src",
+		"sourceMap": true,
+		"strict": true,
+		"strictNullChecks": false,
+		"target": "es6"
+	},
+	"compileOnSave": true,
+	"include": ["src/**/*"],
+	"exclude": ["dist", "node_modules", ".vscode"]
+}

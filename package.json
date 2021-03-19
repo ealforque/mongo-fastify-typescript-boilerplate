@@ -1,0 +1,35 @@
+{
+	"name": "mongo-fastify-typescript",
+	"version": "1.0",
+	"description": "mongo-fastify-typescript",
+	"scripts": {
+		"build": "tsc --p tsconfig.json",
+		"start": "concurrently \"tsc -w\" \"nodemon dist/app.js\""
+	},
+	"keywords": [],
+	"author": "Eric Alforque",
+	"license": "license",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"boom": "^7.3.0",
+		"concurrently": "^6.0.0",
+		"dotenv": "^8.2.0",
+		"fastify": "^3.14.0",
+		"fastify-jwt": "^2.4.0",
+		"fastify-plugin": "^3.0.0",
+		"fastify-swagger": "^4.4.2",
+		"jsonwebtoken": "^8.5.1",
+		"lodash": "^4.17.21",
+		"moment": "^2.29.1",
+		"mongoose": "^5.12.1",
+		"tslib": "^2.1.0"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.14.168",
+		"@types/node": "^14.14.35",
+		"cross-env": "^7.0.3",
+		"nodemon": "^2.0.7",
+		"ts-node": "^9.1.1",
+		"typescript": "^4.2.3"
+	}
+}
