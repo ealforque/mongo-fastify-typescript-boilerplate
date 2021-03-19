@@ -3,7 +3,7 @@
 
 ## Stack
 - MongoDB
-- ExpressJS
+- Fastify
 - Typescript
 - Docker
 
